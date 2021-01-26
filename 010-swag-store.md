@@ -1,4 +1,4 @@
-# Title <!-- What do you want to call your `awesome_feature`? -->
+# Swag store <!-- What do you want to call your `awesome_feature`? -->
 
 - Implementation Owner: @Glide7
 - Start Date: 26-01-2021
