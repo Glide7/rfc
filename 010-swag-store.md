@@ -54,30 +54,38 @@ Write your answer below.
 
 -->
 
-### Prior art
 
 [prior-art]: #prior-art
 
-<!--
 
-Discuss prior art, both the good and the bad, in relation to this proposal. A
-few examples of what this can include are:
+### Setting up an online store
+We will use Shoify for setting up the store, and use Printful as the platform that actually prints and ships the swag. These store intergrate together (stated later in this RFC) easily, and via the websites themselfes.
 
-- Does this functionality exist in other software and what experience has their
-  community had?
-- For other teams: What lessons can we learn from what other communities have
-  done here?
-- Papers: Are there any published papers or great posts that discuss this? If
-  you have some relevant papers to refer to, this can serve as a more detailed
-  theoretical background.
+## Shopify
+I have created a Shopify account (free 14-day trial, after that we need to pay 29$USD per month for the basic package, which is enough for us). The basic program allows for 2 Staff accounts, so 1 more person can have acces to it.
 
-This section is intended to encourage you as an author to think about the
-lessons from other software, provide readers of your RFC with a fuller picture.
-If there is no prior art, that is fine - your ideas are interesting to us
-whether they are brand new or if it is an adaptation from other software.
+## Prinful
+I have created a Prinftul account (free registration) using my Appwrite email account.
 
-Write your answer below.
--->
+## Connectiong Shopiy + Printful
+I have connected the Shopify store to the Prinful account. Entire guide that shows how to do it, is [here](https://www.youtube.com/watch?v=wqZgouaDjck).
+
+## Designs + Products
+As discussed with Eldad, [@HelixHEX](https://github.com/HelixHEX) would help us with design for the swag (which Eldad and I will create a list and publish towards the release of this RFC. Printful provides a variety of swag (from T-shirts to mugs to face masks and my personal favorite, flip flops 😅) 
+After Helix has provided us with designs that we can use, I will add them to the Printful products.
+
+## Shipping
+Luckily for us, Prinful provides [automatic shipping](https://www.printful.com/shipping). All we need to do is set it up (As stated in the video above)
+
+## Online store
+We need to design our online store ([appwritetest.myshopify.com](appwritetest.myshopify.com) as of right now, but we can create a custom domain). It needs to be alligned with the Appwrite brand guidelines.
+
+## Payment
+We simply need to add a payment method 🙃
+
+## QA
+I think it would be neccesary for us to test the whole proccesss once we've set everything above. We should make sure the experience is working as best we can, meaning people (and us) can easily buy Appwrite swag.
+
 
 ### Unresolved questions
 
@@ -86,6 +94,7 @@ Write your answer below.
 <!-- What parts of the design do you expect to resolve through the RFC process before this gets merged? -->
 
 <!-- Write your answer below. -->
+None so far!
 
 ### Future possibilities
 
@@ -94,3 +103,5 @@ Write your answer below.
 <!-- This is also a good place to "dump ideas", if they are out of scope for the RFC you are writing but otherwise related. -->
 
 <!-- Write your answer below. -->
+## Reward system
+In the futrure, we can possibly create a reward system for Appwrite contributors, that will reward them with currency or credit to use in the swag store. They can achieve that by contributing to the project 🏆
