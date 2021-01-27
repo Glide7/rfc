@@ -71,8 +71,8 @@ I have created a Prinftul account (free registration) using my Appwrite email ac
 I have connected the Shopify store to the Prinful account. Entire guide that shows how to do it, is [here](https://www.youtube.com/watch?v=wqZgouaDjck).
 
 ## Designs + Products
-As discussed with Eldad, [@HelixHEX](https://github.com/HelixHEX) would help us with design for the swag (which Eldad and I will create a list and publish towards the release of this RFC. Printful provides a variety of swag (from T-shirts to mugs to face masks and my personal favorite, flip flops 😅) 
-After Helix has provided us with designs that we can use, I will add them to the Printful products.
+As discussed with Eldad, liyasthomas would help us with design for the swag (which Eldad and I will create a list and publish towards the release of this RFC. Printful provides a variety of swag (from T-shirts to mugs to face masks and my personal favorite, flip flops 😅) 
+After liyasthomas has provided us with designs that we can use, I will add them to the Printful products.
 
 ## Shipping
 Luckily for us, Prinful provides [automatic shipping](https://www.printful.com/shipping). All we need to do is set it up (As stated in the video above)
